@@ -80,7 +80,7 @@ const services = [
         name: "Router",
         description: "Network gateway",
         url: "http://192.168.1.1",
-        icon: "fas fa-router",
+        icon: "fas fa-wifi",
         color: "#89dceb"
     },
     {
