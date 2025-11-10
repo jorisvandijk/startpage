@@ -164,6 +164,18 @@ function initSearch() {
             searchInput.value = '';
             filterServices('');
             searchInput.blur();
+        } else if (e.key === 'Enter') {
+            const visibleCards = document.querySelectorAll('.service-card:not(.hidden)');
+            if (visibleCards.length > 0) {
+                window.location.href = visibleCards[0].href;
+            }
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === '/' && document.activeElement !== searchInput) {
+            e.preventDefault();
+            searchInput.focus();
         }
     });
 }
