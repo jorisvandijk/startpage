@@ -56,13 +56,6 @@ const services = [
         color: "#94e2d5"
     },
     {
-        name: "Nvidia SHIELD",
-        description: "Media player",
-        url: "http://192.168.1.18",
-        icon: "fas fa-tv",
-        color: "#a6e3a1"
-    },
-    {
         name: "Proxmox VE",
         description: "Virtualization platform",
         url: "http://192.168.1.34:8006",
