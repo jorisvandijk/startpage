@@ -56,6 +56,13 @@ const services = [
         color: "#94e2d5"
     },
     {
+        name: "PhotoPrism",
+        description: "Photo management",
+        url: "http://192.168.1.13:2342",
+        icon: "fas fa-image",
+        color: "#fab387"
+    },
+    {
         name: "Proxmox VE",
         description: "Virtualization platform",
         url: "http://192.168.1.34:8006",
