@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .house-fill { fill: #89dceb; }
+      .house-accent { fill: #cba6f7; }
+    </style>
+  </defs>
+
+  <!-- Main house body -->
+  <rect x="20" y="45" width="60" height="45" rx="2" class="house-fill"/>
+
+  <!-- Roof -->
+  <polygon points="50,20 20,45 80,45" class="house-accent"/>
+
+  <!-- Door -->
+  <rect x="42" y="60" width="16" height="24" rx="1" fill="#fab387"/>
+
+  <!-- Door knob -->
+  <circle cx="56" cy="72" r="1.5" fill="#f9e2af"/>
+
+  <!-- Left window -->
+  <rect x="28" y="52" width="10" height="10" rx="1" fill="#f5e6e8"/>
+  <line x1="33" y1="52" x2="33" y2="62" stroke="#89dceb" stroke-width="0.8"/>
+  <line x1="28" y1="57" x2="38" y2="57" stroke="#89dceb" stroke-width="0.8"/>
+
+  <!-- Right window -->
+  <rect x="62" y="52" width="10" height="10" rx="1" fill="#f5e6e8"/>
+  <line x1="67" y1="52" x2="67" y2="62" stroke="#89dceb" stroke-width="0.8"/>
+  <line x1="62" y1="57" x2="72" y2="57" stroke="#89dceb" stroke-width="0.8"/>
+</svg>
