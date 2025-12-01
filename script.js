@@ -2,7 +2,7 @@ const services = [
     {
         name: "Bazarr",
         description: "Subtitle manager",
-        url: "http://192.168.1.44:6767",
+        url: "http://10.10.10.107:6767",
         icon: "fas fa-closed-captioning",
         color: "#cba6f7"
     },
@@ -16,7 +16,7 @@ const services = [
     {
         name: "Frigate",
         description: "NVR camera system",
-        url: "http://192.168.1.36:5000",
+        url: "http://10.10.10.101:5000",
         icon: "fas fa-video",
         color: "#94e2d5"
     },
@@ -30,14 +30,14 @@ const services = [
     {
         name: "Jellyfin",
         description: "Media server",
-        url: "http://192.168.1.45:8096",
+        url: "http://10.10.10.108:8096",
         icon: "fas fa-play-circle",
         color: "#cba6f7"
     },
     {
         name: "Lidarr",
         description: "Music manager",
-        url: "http://192.168.1.62:8686",
+        url: "http://10.10.10.112:8686",
         icon: "fas fa-music",
         color: "#a6e3a1"
     },
@@ -51,14 +51,14 @@ const services = [
     {
         name: "NGINX Proxy Manager",
         description: "Reverse proxy",
-        url: "http://192.168.1.55:81",
+        url: "http://10.10.10.110:81",
         icon: "fas fa-network-wired",
         color: "#94e2d5"
     },
     {
         name: "PhotoPrism",
         description: "Photo management",
-        url: "http://192.168.1.13:2342",
+        url: "http://10.10.10.113:2342",
         icon: "fas fa-image",
         color: "#fab387"
     },
@@ -72,7 +72,7 @@ const services = [
     {
         name: "Radarr",
         description: "Movie manager",
-        url: "http://192.168.1.42:7878",
+        url: "http://10.10.10.105:7878",
         icon: "fas fa-film",
         color: "#f9e2af"
     },
@@ -86,7 +86,7 @@ const services = [
     {
         name: "SABnzbd",
         description: "Usenet downloader",
-        url: "http://192.168.1.40:7777",
+        url: "http://10.10.10.104:7777",
         icon: "fas fa-download",
         color: "#89b4fa"
     },
@@ -100,7 +100,7 @@ const services = [
     {
         name: "Sonarr",
         description: "TV show manager",
-        url: "http://192.168.1.43:8989",
+        url: "http://10.10.10.106:8989",
         icon: "fas fa-tv",
         color: "#89b4fa"
     },
