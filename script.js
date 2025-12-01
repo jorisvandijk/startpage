@@ -6,13 +6,13 @@ const services = [
         icon: "fas fa-closed-captioning",
         color: "#cba6f7"
     },
-    {
-        name: "Door Cam",
-        description: "HIKVision camera",
-        url: "http://192.168.1.30",
-        icon: "fas fa-camera",
-        color: "#f38ba8"
-    },
+    // {
+    //     name: "Door Cam",
+    //     description: "HIKVision camera",
+    //     url: "http://192.168.1.229",
+    //     icon: "fas fa-camera",
+    //     color: "#f38ba8"
+    // },
     {
         name: "Frigate",
         description: "NVR camera system",
@@ -23,7 +23,7 @@ const services = [
     {
         name: "Home Assistant",
         description: "Home automation",
-        url: "http://192.168.1.35:8123",
+        url: "http://10.10.10.100:8123",
         icon: "fas fa-home",
         color: "#a6e3a1"
     },
@@ -41,13 +41,13 @@ const services = [
         icon: "fas fa-music",
         color: "#a6e3a1"
     },
-    {
-        name: "NetGear Switch",
-        description: "Network switch",
-        url: "http://192.168.1.10",
-        icon: "fas fa-ethernet",
-        color: "#89b4fa"
-    },
+    // {
+    //     name: "NetGear Switch",
+    //     description: "Network switch",
+    //     url: "http://192.168.1.10",
+    //     icon: "fas fa-ethernet",
+    //     color: "#89b4fa"
+    // },
     {
         name: "NGINX Proxy Manager",
         description: "Reverse proxy",
@@ -65,7 +65,7 @@ const services = [
     {
         name: "Proxmox VE",
         description: "Virtualization platform",
-        url: "http://192.168.1.34:8006",
+        url: "http://192.168.1.5:8006",
         icon: "fas fa-cube",
         color: "#fab387"
     },
@@ -93,7 +93,7 @@ const services = [
     {
         name: "SLZB-06",
         description: "Zigbee coordinator",
-        url: "http://192.168.1.24",
+        url: "http://192.168.1.15",
         icon: "fas fa-broadcast-tower",
         color: "#f9e2af"
     },
@@ -114,17 +114,17 @@ const services = [
     {
         name: "WGDashboard",
         description: "WireGuard VPN",
-        url: "http://192.168.1.53:10086",
+        url: "http://10.10.10.102:10086",
         icon: "fas fa-shield-alt",
         color: "#89dceb"
     },
-    {
-        name: "Zabbix",
-        description: "Monitoring & alerting",
-        url: "http://192.168.1.23/zabbix",
-        icon: "fas fa-heartbeat",
-        color: "#f38ba8"
-    }
+    // {
+    //     name: "Zabbix",
+    //     description: "Monitoring & alerting",
+    //     url: "http://192.168.1.23/zabbix",
+    //     icon: "fas fa-heartbeat",
+    //     color: "#f38ba8"
+    // }
 ];
 
 function createServiceCard(service) {
