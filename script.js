@@ -4,7 +4,7 @@ const services = [
         description: "Subtitle manager",
         url: "http://10.10.10.107:6767",
         icon: "fas fa-closed-captioning",
-        color: "#cba6f7"
+        color: "#f38ba8"
     },
     // {
     //     name: "Door Cam",
@@ -18,28 +18,28 @@ const services = [
         description: "NVR camera system",
         url: "http://10.10.10.101:5000",
         icon: "fas fa-video",
-        color: "#94e2d5"
+        color: "#cba6f7"
     },
     {
         name: "Home Assistant",
         description: "Home automation",
         url: "http://10.10.10.100:8123",
         icon: "fas fa-home",
-        color: "#a6e3a1"
+        color: "#cba6f7"
     },
     {
         name: "Jellyfin",
         description: "Media server",
         url: "http://10.10.10.108:8096",
         icon: "fas fa-play-circle",
-        color: "#cba6f7"
+        color: "#f38ba8"
     },
     {
         name: "Lidarr",
         description: "Music manager",
         url: "http://10.10.10.112:8686",
         icon: "fas fa-music",
-        color: "#a6e3a1"
+        color: "#f38ba8"
     },
     // {
     //     name: "NetGear Switch",
@@ -53,6 +53,13 @@ const services = [
         description: "Reverse proxy",
         url: "http://10.10.10.110:81",
         icon: "fas fa-network-wired",
+        color: "#89b4fa"
+    },
+    {
+        name: "PiHole",
+        description: "DNS and adblocking",
+        url: "http://192.168.1.2/admin/",
+        icon: "fab fa-raspberry-pi",
         color: "#94e2d5"
     },
     {
@@ -60,7 +67,7 @@ const services = [
         description: "Photo management",
         url: "http://10.10.10.113:2342",
         icon: "fas fa-image",
-        color: "#fab387"
+        color: "#f38ba8"
     },
     {
         name: "Proxmox Backup Server (PBS)",
@@ -74,56 +81,56 @@ const services = [
         description: "Virtualization platform",
         url: "http://192.168.1.5:8006",
         icon: "fas fa-cube",
-        color: "#fab387"
+        color: "#89b4fa"
     },
     {
         name: "Radarr",
         description: "Movie manager",
         url: "http://10.10.10.105:7878",
         icon: "fas fa-film",
-        color: "#f9e2af"
+        color: "#f38ba8"
     },
     {
         name: "Router",
         description: "Network gateway",
         url: "http://192.168.1.1",
         icon: "fas fa-wifi",
-        color: "#89dceb"
+        color: "#94e2d5"
     },
     {
         name: "SABnzbd",
         description: "Usenet downloader",
         url: "http://10.10.10.104:7777",
         icon: "fas fa-download",
-        color: "#89b4fa"
+        color: "#cba6f7"
     },
     {
         name: "SLZB-06",
         description: "Zigbee coordinator",
         url: "http://192.168.1.15",
         icon: "fas fa-broadcast-tower",
-        color: "#f9e2af"
+        color: "#94e2d5"
     },
     {
         name: "Sonarr",
         description: "TV show manager",
         url: "http://10.10.10.106:8989",
         icon: "fas fa-tv",
-        color: "#89b4fa"
+        color: "#f38ba8"
     },
     {
         name: "UniFi Controller",
         description: "Network management",
         url: "http://192.168.1.11",
         icon: "fas fa-cloud",
-        color: "#89dceb"
+        color: "#94e2d5"
     },
     {
         name: "WGDashboard",
         description: "WireGuard VPN",
         url: "http://10.10.10.102:10086",
         icon: "fas fa-shield-alt",
-        color: "#89dceb"
+        color: "#94e2d5"
     },
     // {
     //     name: "Zabbix",
