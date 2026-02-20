@@ -28,6 +28,13 @@ const services = [
         color: "#cba6f7"
     },
     {
+        name: "Immich",
+        description: "Photo backup & management",
+        url: "http://10.10.10.117:2283/",
+        icon: "fas fa-images",
+        color: "#89dceb"
+    },
+    {
         name: "Jellyfin",
         description: "Media server",
         url: "http://10.10.10.108:8096",
@@ -68,6 +75,13 @@ const services = [
         url: "http://10.10.10.113:2342",
         icon: "fas fa-image",
         color: "#f38ba8"
+    },
+    {
+        name: "qBittorrent",
+        description: "Torrent client",
+        url: "http://10.10.10.111:8090/",
+        icon: "fas fa-cloud-download-alt",
+        color: "#f9e2af"
     },
     {
         name: "Proxmox Backup Server (PBS)",
@@ -117,6 +131,13 @@ const services = [
         url: "http://10.10.10.106:8989",
         icon: "fas fa-tv",
         color: "#f38ba8"
+    },
+    {
+        name: "Tidarr",
+        description: "Comic book manager",
+        url: "http://10.10.10.103:8484/",
+        icon: "fas fa-book",
+        color: "#fab387"
     },
     {
         name: "UniFi Controller",
