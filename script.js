@@ -32,7 +32,7 @@ const services = [
         description: "Photo backup & management",
         url: "http://10.10.10.117:2283/",
         icon: "fas fa-images",
-        color: "#89dceb"
+        color: "#f38ba8"
     },
     {
         name: "Jellyfin",
@@ -81,7 +81,7 @@ const services = [
         description: "Torrent client",
         url: "http://10.10.10.111:8090/",
         icon: "fas fa-cloud-download-alt",
-        color: "#f9e2af"
+        color: "#cba6f7"
     },
     {
         name: "Proxmox Backup Server (PBS)",
@@ -134,10 +134,10 @@ const services = [
     },
     {
         name: "Tidarr",
-        description: "Comic book manager",
+        description: "Tidal music downloader",
         url: "http://10.10.10.103:8484/",
-        icon: "fas fa-book",
-        color: "#fab387"
+        icon: "fas fa-music",
+        color: "#f38ba8"
     },
     {
         name: "UniFi Controller",
