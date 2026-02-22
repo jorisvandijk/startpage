@@ -1,5 +1,4 @@
 const services = [
-    // Arr Suite - Red (#f38ba8)
     {
         name: "Bazarr",
         description: "Subtitle manager",
@@ -7,28 +6,6 @@ const services = [
         icon: "fas fa-closed-captioning",
         color: "#f38ba8"
     },
-    {
-        name: "Lidarr",
-        description: "Music manager",
-        url: "http://10.10.10.112:8686",
-        icon: "fas fa-music",
-        color: "#f38ba8"
-    },
-    {
-        name: "Radarr",
-        description: "Movie manager",
-        url: "http://10.10.10.105:7878",
-        icon: "fas fa-film",
-        color: "#f38ba8"
-    },
-    {
-        name: "Sonarr",
-        description: "TV show manager",
-        url: "http://10.10.10.106:8989",
-        icon: "fas fa-tv",
-        color: "#f38ba8"
-    },
-    // Automation & Monitoring - Peach (#fab387)
     {
         name: "Frigate",
         description: "NVR camera system",
@@ -43,7 +20,6 @@ const services = [
         icon: "fas fa-home",
         color: "#fab387"
     },
-    // Media Servers & Libraries - Green (#a6e3a1)
     {
         name: "Immich",
         description: "Photo backup & management",
@@ -59,19 +35,25 @@ const services = [
         color: "#a6e3a1"
     },
     {
-        name: "RomM",
-        description: "Games ROM manager",
-        url: "http://10.10.10.118",
-        icon: "fas fa-gamepad",
-        color: "#a6e3a1"
+        name: "Lidarr",
+        description: "Music manager",
+        url: "http://10.10.10.112:8686",
+        icon: "fas fa-music",
+        color: "#f38ba8"
     },
-    // Infrastructure - Blue (#89b4fa)
     {
         name: "NGINX Proxy Manager",
         description: "Reverse proxy",
         url: "http://10.10.10.110:81",
         icon: "fas fa-network-wired",
         color: "#89b4fa"
+    },
+    {
+        name: "PiHole",
+        description: "DNS and adblocking",
+        url: "http://192.168.1.2/admin/",
+        icon: "fab fa-raspberry-pi",
+        color: "#94e2d5"
     },
     {
         name: "Proxmox Backup Server (PBS)",
@@ -87,7 +69,6 @@ const services = [
         icon: "fas fa-cube",
         color: "#89b4fa"
     },
-    // Content Downloaders - Mauve (#cba6f7)
     {
         name: "qBittorrent",
         description: "Torrent client",
@@ -96,26 +77,18 @@ const services = [
         color: "#cba6f7"
     },
     {
-        name: "SABnzbd",
-        description: "Usenet downloader",
-        url: "http://10.10.10.104:7777",
-        icon: "fas fa-download",
-        color: "#cba6f7"
+        name: "Radarr",
+        description: "Movie manager",
+        url: "http://10.10.10.105:7878",
+        icon: "fas fa-film",
+        color: "#f38ba8"
     },
     {
-        name: "Tidarr",
-        description: "Tidal music downloader",
-        url: "http://10.10.10.103:8484/",
-        icon: "fas fa-music",
-        color: "#cba6f7"
-    },
-    // Networking - Teal (#94e2d5)
-    {
-        name: "PiHole",
-        description: "DNS and adblocking",
-        url: "http://192.168.1.2/admin/",
-        icon: "fab fa-raspberry-pi",
-        color: "#94e2d5"
+        name: "RomM",
+        description: "Games ROM manager",
+        url: "http://10.10.10.118",
+        icon: "fas fa-gamepad",
+        color: "#a6e3a1"
     },
     {
         name: "Router",
@@ -125,11 +98,32 @@ const services = [
         color: "#94e2d5"
     },
     {
+        name: "SABnzbd",
+        description: "Usenet downloader",
+        url: "http://10.10.10.104:7777",
+        icon: "fas fa-download",
+        color: "#cba6f7"
+    },
+    {
         name: "SLZB-06",
         description: "Zigbee coordinator",
         url: "http://192.168.1.15",
         icon: "fas fa-broadcast-tower",
         color: "#94e2d5"
+    },
+    {
+        name: "Sonarr",
+        description: "TV show manager",
+        url: "http://10.10.10.106:8989",
+        icon: "fas fa-tv",
+        color: "#f38ba8"
+    },
+    {
+        name: "Tidarr",
+        description: "Tidal music downloader",
+        url: "http://10.10.10.103:8484/",
+        icon: "fas fa-music",
+        color: "#cba6f7"
     },
     {
         name: "UniFi Controller",
