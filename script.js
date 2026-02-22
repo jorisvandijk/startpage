@@ -105,6 +105,13 @@ const services = [
         color: "#f38ba8"
     },
     {
+        name: "RomM",
+        description: "Games ROM manager",
+        url: "http://10.10.10.118",
+        icon: "fas fa-gamepad",
+        color: "#f38ba8"
+    },
+    {
         name: "Router",
         description: "Network gateway",
         url: "http://192.168.1.1",
