@@ -1,44 +1,10 @@
 const services = [
+    // Arr Suite - Red (#f38ba8)
     {
         name: "Bazarr",
         description: "Subtitle manager",
         url: "http://10.10.10.107:6767",
         icon: "fas fa-closed-captioning",
-        color: "#f38ba8"
-    },
-    // {
-    //     name: "Door Cam",
-    //     description: "HIKVision camera",
-    //     url: "http://192.168.1.229",
-    //     icon: "fas fa-camera",
-    //     color: "#f38ba8"
-    // },
-    {
-        name: "Frigate",
-        description: "NVR camera system",
-        url: "http://10.10.10.101:5000",
-        icon: "fas fa-video",
-        color: "#cba6f7"
-    },
-    {
-        name: "Home Assistant",
-        description: "Home automation",
-        url: "http://10.10.10.100:8123",
-        icon: "fas fa-home",
-        color: "#cba6f7"
-    },
-    {
-        name: "Immich",
-        description: "Photo backup & management",
-        url: "http://10.10.10.117:2283/",
-        icon: "fas fa-images",
-        color: "#f38ba8"
-    },
-    {
-        name: "Jellyfin",
-        description: "Media server",
-        url: "http://10.10.10.108:8096",
-        icon: "fas fa-play-circle",
         color: "#f38ba8"
     },
     {
@@ -48,40 +14,64 @@ const services = [
         icon: "fas fa-music",
         color: "#f38ba8"
     },
-    // {
-    //     name: "NetGear Switch",
-    //     description: "Network switch",
-    //     url: "http://192.168.1.10",
-    //     icon: "fas fa-ethernet",
-    //     color: "#89b4fa"
-    // },
+    {
+        name: "Radarr",
+        description: "Movie manager",
+        url: "http://10.10.10.105:7878",
+        icon: "fas fa-film",
+        color: "#f38ba8"
+    },
+    {
+        name: "Sonarr",
+        description: "TV show manager",
+        url: "http://10.10.10.106:8989",
+        icon: "fas fa-tv",
+        color: "#f38ba8"
+    },
+    // Automation & Monitoring - Peach (#fab387)
+    {
+        name: "Frigate",
+        description: "NVR camera system",
+        url: "http://10.10.10.101:5000",
+        icon: "fas fa-video",
+        color: "#fab387"
+    },
+    {
+        name: "Home Assistant",
+        description: "Home automation",
+        url: "http://10.10.10.100:8123",
+        icon: "fas fa-home",
+        color: "#fab387"
+    },
+    // Media Servers & Libraries - Green (#a6e3a1)
+    {
+        name: "Immich",
+        description: "Photo backup & management",
+        url: "http://10.10.10.117:2283/",
+        icon: "fas fa-images",
+        color: "#a6e3a1"
+    },
+    {
+        name: "Jellyfin",
+        description: "Media server",
+        url: "http://10.10.10.108:8096",
+        icon: "fas fa-play-circle",
+        color: "#a6e3a1"
+    },
+    {
+        name: "RomM",
+        description: "Games ROM manager",
+        url: "http://10.10.10.118",
+        icon: "fas fa-gamepad",
+        color: "#a6e3a1"
+    },
+    // Infrastructure - Blue (#89b4fa)
     {
         name: "NGINX Proxy Manager",
         description: "Reverse proxy",
         url: "http://10.10.10.110:81",
         icon: "fas fa-network-wired",
         color: "#89b4fa"
-    },
-    {
-        name: "PiHole",
-        description: "DNS and adblocking",
-        url: "http://192.168.1.2/admin/",
-        icon: "fab fa-raspberry-pi",
-        color: "#94e2d5"
-    },
-    {
-        name: "PhotoPrism",
-        description: "Photo management",
-        url: "http://10.10.10.113:2342",
-        icon: "fas fa-image",
-        color: "#f38ba8"
-    },
-    {
-        name: "qBittorrent",
-        description: "Torrent client",
-        url: "http://10.10.10.111:8090/",
-        icon: "fas fa-cloud-download-alt",
-        color: "#cba6f7"
     },
     {
         name: "Proxmox Backup Server (PBS)",
@@ -97,26 +87,13 @@ const services = [
         icon: "fas fa-cube",
         color: "#89b4fa"
     },
+    // Content Downloaders - Mauve (#cba6f7)
     {
-        name: "Radarr",
-        description: "Movie manager",
-        url: "http://10.10.10.105:7878",
-        icon: "fas fa-film",
-        color: "#f38ba8"
-    },
-    {
-        name: "RomM",
-        description: "Games ROM manager",
-        url: "http://10.10.10.118",
-        icon: "fas fa-gamepad",
-        color: "#f38ba8"
-    },
-    {
-        name: "Router",
-        description: "Network gateway",
-        url: "http://192.168.1.1",
-        icon: "fas fa-wifi",
-        color: "#94e2d5"
+        name: "qBittorrent",
+        description: "Torrent client",
+        url: "http://10.10.10.111:8090/",
+        icon: "fas fa-cloud-download-alt",
+        color: "#cba6f7"
     },
     {
         name: "SABnzbd",
@@ -126,25 +103,33 @@ const services = [
         color: "#cba6f7"
     },
     {
+        name: "Tidarr",
+        description: "Tidal music downloader",
+        url: "http://10.10.10.103:8484/",
+        icon: "fas fa-music",
+        color: "#cba6f7"
+    },
+    // Networking - Teal (#94e2d5)
+    {
+        name: "PiHole",
+        description: "DNS and adblocking",
+        url: "http://192.168.1.2/admin/",
+        icon: "fab fa-raspberry-pi",
+        color: "#94e2d5"
+    },
+    {
+        name: "Router",
+        description: "Network gateway",
+        url: "http://192.168.1.1",
+        icon: "fas fa-wifi",
+        color: "#94e2d5"
+    },
+    {
         name: "SLZB-06",
         description: "Zigbee coordinator",
         url: "http://192.168.1.15",
         icon: "fas fa-broadcast-tower",
         color: "#94e2d5"
-    },
-    {
-        name: "Sonarr",
-        description: "TV show manager",
-        url: "http://10.10.10.106:8989",
-        icon: "fas fa-tv",
-        color: "#f38ba8"
-    },
-    {
-        name: "Tidarr",
-        description: "Tidal music downloader",
-        url: "http://10.10.10.103:8484/",
-        icon: "fas fa-music",
-        color: "#f38ba8"
     },
     {
         name: "UniFi Controller",
