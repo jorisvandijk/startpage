@@ -123,7 +123,7 @@ const services = [
         description: "Tidal music downloader",
         url: "http://10.10.10.103:8484/",
         icon: "fas fa-music",
-        color: "#cba6f7"
+        color: "#f38ba8"
     },
     {
         name: "UniFi Controller",
