@@ -58,7 +58,7 @@ const services = [
     {
         name: "Proxmox Backup Server (PBS)",
         description: "Backup server",
-        url: "https://10.10.10.115:8007",
+        url: "http://10.10.10.115:8007",
         icon: "fas fa-database",
         color: "#89b4fa"
     },
